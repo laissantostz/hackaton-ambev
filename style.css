@@ -1,0 +1,69 @@
+/* Index */
+
+.body-index{
+  background: url('img/bg-log.jpg') center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.body-index .overlay{
+  position: absolute;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0,0,0,.3);
+}
+.body-index h1{
+  color: #fff;
+  font-size: 1.3em;
+}
+.buttons{
+  margin-top: 40px;
+}
+.buttons .sign-in,
+.buttons .sign-up{
+  background: #FF9800;
+  padding: 12px 35px;
+  border-radius: 20px;
+  margin-top: 80px;
+  color: #fff;
+  text-decoration: none;
+  font-size: .95em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.buttons .sign-up{
+  background: #484848;
+}
+
+/* Cashback */
+
+.cashback{
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #FFAB45 0%, #A2102B 100%);
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.cashback h1{
+  color: #fff;
+  font-size: 1.3em;
+  margin-left: 20px;
+}
+.search{
+  background: #fff;
+  width: 100%;
+  padding: 13px 13px;
+  border-radius: 20px 20px 0 0;
+  box-sizing: border-box;
+}
